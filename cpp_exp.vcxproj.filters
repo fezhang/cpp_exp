@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="template">
+      <UniqueIdentifier>{0dfad073-b33b-4d50-89c7-4f52f7491266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{f307d094-ec7f-4a24-b443-86022a02b9a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{eb6d23d4-8063-49cc-bb28-e8202e145f82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="template_alias.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp_exp_main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="template_func.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="reverse_chars.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cpp_exp_base.h">
+      <Filter>base</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
