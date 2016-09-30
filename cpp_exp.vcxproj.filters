@@ -24,6 +24,9 @@
     <ClCompile Include="reverse_chars.cpp">
       <Filter>template</Filter>
     </ClCompile>
+    <ClCompile Include="fast_advance.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cpp_exp_base.h">

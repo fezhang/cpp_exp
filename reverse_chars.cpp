@@ -9,7 +9,10 @@ namespace {
 	template<> int mymblen<utf8>(const char *p, int n)
 	{
 		//hard code for chinese characters...
-		return 2; // return mblen(p, n);
+		return 2; 
+		
+		//about mblen, ref: http://www.cplusplus.com/reference/cstdlib/mblen/
+		// return mblen(p, n);
 	}
 
 	template<typename Charset>
@@ -36,7 +39,7 @@ void test_reverse_chars()
 	char utf8_buffer[] = "人民日报日人民";
 
 	my_reverse<utf8>(utf8_buffer, sizeof(utf8_buffer) - 1);
-	my_reverse<ascii>(ascii_buffer, sizeof(ascii_buffer)-1);
+	my_reverse<ascii>(ascii_buffer, sizeof(ascii_buffer) - 1);
 
 	std::cout << " reverse of \"Hello world\" is:" << ascii_buffer<<" \n";
 	std::cout << " reverse of \"人民日报日人民\" is:" << utf8_buffer << " \n";

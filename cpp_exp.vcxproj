@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="cpp_exp_main.cpp" />
+    <ClCompile Include="fast_advance.cpp" />
     <ClCompile Include="reverse_chars.cpp" />
     <ClCompile Include="template_alias.cpp" />
     <ClCompile Include="template_func.cpp" />
