@@ -8,7 +8,15 @@ namespace {
 	template<> int mymblen<ascii>(const char *, int)		{ return 1; }
 	template<> int mymblen<utf8>(const char *p, int n)
 	{
+		//hard code to generate special result...
+		static int invoke_time = 0;
+		if (0 == invoke_time || 4 == invoke_time) {
+			++invoke_time;
+			return 4;
+		}
+
 		//hard code for chinese characters...
+		++invoke_time;
 		return 2; 
 		
 		//about mblen, ref: http://www.cplusplus.com/reference/cstdlib/mblen/
