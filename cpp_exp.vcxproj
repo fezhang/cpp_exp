@@ -142,7 +142,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="chrono_concepts.cpp" />
     <ClCompile Include="cpp_exp_main.cpp" />
+    <ClCompile Include="early_binding_callback.cpp" />
     <ClCompile Include="fast_advance.cpp" />
     <ClCompile Include="reverse_chars.cpp" />
     <ClCompile Include="template_alias.cpp" />

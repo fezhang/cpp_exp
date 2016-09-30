@@ -10,6 +10,9 @@
     <Filter Include="base">
       <UniqueIdentifier>{eb6d23d4-8063-49cc-bb28-e8202e145f82}</UniqueIdentifier>
     </Filter>
+    <Filter Include="chrono">
+      <UniqueIdentifier>{f808c4e1-e402-42fd-9403-f7444a56b691}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="template_alias.cpp">
@@ -29,6 +32,12 @@
     </ClCompile>
     <ClCompile Include="variadic_template.cpp">
       <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="early_binding_callback.cpp">
+      <Filter>template</Filter>
+    </ClCompile>
+    <ClCompile Include="chrono_concepts.cpp">
+      <Filter>chrono</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
