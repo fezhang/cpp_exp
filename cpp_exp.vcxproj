@@ -147,6 +147,7 @@
     <ClCompile Include="reverse_chars.cpp" />
     <ClCompile Include="template_alias.cpp" />
     <ClCompile Include="template_func.cpp" />
+    <ClCompile Include="variadic_template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="cpp_exp_base.h" />
